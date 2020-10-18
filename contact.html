@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/green.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="selector-theme">
+		<div id="green"></div>
+		<div id="red"></div>
+		<div id="blue"></div>
+	</div>
+
+	<section class="contenedor">
+		<!-- Cabecera -->
+		<header>
+			<div class="logo">
+				<h1>JS</h1>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Reloj</a></li>
+					<li><a href="about.html">Sobre Mi</a></li>
+					<li><a href="contact.html">Contacto</a></li>					
+				</ul>
+			</nav>	
+		</header>
+
+		<!-- Contenido -->
+		<div class="contenido-principal contenedor">
+        <main class="blog">
+        <h2>Contacto</h2>
+           	<div id="box">
+           		<form id="form" class="form">
+           			<label for="nombre">Nombre</label>
+           			<input type="text" placeholder="Nombre" data-validation="alphanumeric">
+
+           			<label for="apellido">Apellido</label>
+           			<input type="text" placeholder="Apellido" data-validation="alphanumeric">
+
+           			<label for="correo">Correo Electrónico</label>
+		            <input type="email" placeholder="Correo electrónico" data-validation="email">		       
+
+		            <label for="sexo">Sexo</label>
+		            <select name="sexo" id="" data-validation="required">
+		            	<option value="hombre">Hombre</option>
+		            	<option value="mujer">Mujer</option>
+		            </select>
+
+		            <label for="fecha">Fecha de Nacimiento</label>
+		            <input type="text" name="fecha" data-validation="date" data-validation-format="dd-mm-yyyy">
+
+		            <label for="years">Edad</label>
+		            <input type="number" name="years" data-validation="number">
+
+		            <button type="submit" class="boton">Enviar</button>
+           		</form>	               
+           	</div>	            	
+        </main>
+        <aside class="cursos">
+            <h2>Nuestros Cursos y Talleres</h2>
+            <ul class="curso-lista">
+                <li class="curso">
+                    <h4 class="m-0">Curso sobre nutrición saludable</h4>
+                    <p class="m-0">Costo: <span>Gratis</span></p>
+                    <p class="m-0">Cupo: <span>20 personas</span></p>
+                    <a href="cursos.html" class="btn btn-secundario">Más Información</a>
+                </li>             
+            </ul>
+            <div class="content">
+                <h2 class="m-0 centrar-texto">¡Suscríbete!</h2>
+                <p class="centrar-texto">Ingresa tu correo y recibe nuestro contenido al instante.</p>
+                <input type="email" placeholder="Email"></input>
+                <a href="#" class="button">Enviar &raquo;</a>
+            </div><!--content-->
+            <h3></h3>
+           
+        </aside><!--cursos-->
+    </div><!--contenedor-->	
+		</section>
+
+	<footer>
+		<p>Desarrollado por M @2020</p>
+		<a href="#" id="up">Ir arriba</a>
+	</footer>
+	<!-- Jquery UI -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css">
+	<script src="js/jquery-ui/jquery-ui.min.js"></script>
+	<script src="js/form-validator.js"></script>
+	<!-- JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>

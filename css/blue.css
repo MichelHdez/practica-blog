@@ -1,0 +1,26 @@
+body{
+	background-image: url(../img/cielo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	background-color: #1f87c4;
+}
+
+.btn-primario{background-color: #1f87c4;}
+.btn-primario:hover{background-color: #069e2d;}
+.btn-secundario{background-color: #1f87c4;}
+.btn-secundario:hover{background-color: #069e2d;}
+
+.contact button{
+    background-color: #1f87c4;
+}
+
+.contact button:hover{
+    background: #1f87c4;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}

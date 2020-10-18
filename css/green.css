@@ -1,0 +1,33 @@
+body{
+	background-image: url(../img/hojas.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	background-color: #235e3d;
+}
+
+.btn-primario{background-color: #39b54a;}
+.btn-primario:hover{background-color: #069e2d;}
+.btn-secundario{background-color: #39b54a;}
+.btn-secundario:hover{background-color: #069e2d;}
+
+.contact button{
+    background: #4caf50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 8px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact button:hover{
+    background: #43a047;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,26 @@
+body{
+	background-image: url(../img/rojo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	background-color: #ca3413;
+}
+
+.btn-primario{background-color: #ca3413;}
+.btn-primario:hover{background-color: #069e2d;}
+.btn-secundario{background-color: #ca3413;}
+.btn-secundario:hover{background-color: #069e2d;}
+
+.contact button{
+    background-color: #ca3413;
+}
+
+.contact button:hover{
+    background: #ca3413;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}

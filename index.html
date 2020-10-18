@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- <link rel="stylesheet" href="css/blue.css">
+	<link rel="stylesheet" href="css/red.css"> -->
+	<link rel="stylesheet" href="css/green.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="selector-theme">
+		<div id="green"></div>
+		<div id="red"></div>
+		<div id="blue"></div>
+	</div>
+
+	<section class="contenedor">
+		<!-- Cabecera -->
+		<header>
+			<div class="logo">
+				<h1>JS</h1>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Reloj</a></li>
+					<li><a href="about.html">Sobre Mi</a></li>
+					<li><a href="contact.html">Contacto</a></li>					
+				</ul>
+			</nav>	
+		</header>
+
+		<!-- slider -->
+		<div class="bxslider">
+			<div><img src="img/rojo.jpg" alt="Funky roots"></div>
+			<div><img src="img/cielo.jpg" alt="The long and winding road"></div>
+			<div><img src="img/hojas.jpg" alt="Happy trees"></div>
+		</div>
+
+		<!-- Contenido -->
+		<div class="contenido-principal contenedor">
+        <main class="blog">
+            <h2>Nuestro Blog</h2>
+            <section id="content">
+
+	           	<div id="posts">	               
+	           	</div>	            	
+            </section>           	
+        </main>
+        <aside class="cursos">
+            <h2>Nuestros Cursos y Talleres</h2>
+            <ul class="curso-lista">
+                <li class="curso">
+                    <h4 class="m-0">Curso sobre nutrición saludable</h4>
+                    <p class="m-0">Costo: <span>Gratis</span></p>
+                    <p class="m-0">Cupo: <span>20 personas</span></p>
+                    <a href="cursos.html" class="btn btn-secundario">Más Información</a>
+                </li>             
+            </ul>
+            <div class="content">
+                <h2 class="m-0 centrar-texto">¡Suscríbete!</h2>
+                <p class="centrar-texto">Ingresa tu correo y recibe nuestro contenido al instante.</p>
+                <input type="email" placeholder="Email"></input>
+                <a href="#" class="button">Enviar &raquo;</a>
+            </div><!--content-->
+            <h3></h3>
+
+            <!-- Login -->
+			<div id="login">
+				<form action="" id="form" class="contact">		          
+		            <h4>Inicia Sesión</h4>
+		            <input type="text" id="form_nombre" placeholder="Nombre">
+		            <input type="email" placeholder="Correo electrónico">
+		            <input type="password" placeholder="Contraseña">            
+		            <button type="submit">Enviar</button>
+       			 </form>
+			</div><!--Login-->
+        </aside><!--cursos-->
+    </div><!--contenedor-->	
+		</section>
+
+	<footer>
+		<p>Desarrollado por M @2020</p>
+		<a href="#" id="up">Ir arriba</a>
+	</footer>
+
+	<!-- Slider -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  	<!-- Moment -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/locale/es-do.min.js"></script>
+	<!-- JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
